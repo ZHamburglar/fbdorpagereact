@@ -8,14 +8,24 @@ import router from 'app/router/';
 class Nav extends Component{
   render() {
     return(
-      <div>
+      <div className="container-fluid">
         <nav className="top-bar" role="navigation">
-            <ul className="small-block-grid-4" data-dropdown-menu>
-              <li>
-                <Link to="/main" className="eachLink" activeClassName="active">HOME</Link>
+            <ul className="" data-dropdown-menu>
+              <li className="titlename navbar-left">Football-Data<span>.org</span></li>
+              <li className="navbar-right topright">
+                <Link to="/main" className="eachLink" activeClassName="active">Home</Link>
               </li>
-              <li>
-                <Link to="/about" className="eachLink" activeClassName="active">ABOUT</Link>
+              <li className="navbar-right topright">
+                <Link to="/documentation" className="eachLink" activeClassName="active">Docs</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/blog" className="eachLink" activeClassName="active">Blog</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/settings" className="eachLink" activeClassName="active">Settings</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/about" className="eachLink" activeClassName="active">About</Link>
               </li>
   					</ul>
         </nav>

@@ -1,13 +1,23 @@
 .top-bar {
-  background-color: #2F3131;
+  background-color: black;
   box-shadow: 0px 1px 4px 0px rgba(0,0,0,.6);
 	padding: 1.5rem;
 }
 
-.top-bar-left {
-	height: 150px;
-	width: 100%;
+.titlename {
+  color: #c39f04;
+  padding: 11px;
 }
+
+.topright {
+  padding: 11px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
 
 .top-bar ul {
   background-color: transparent !important;
@@ -19,21 +29,4 @@
 	width: 25%;
 	display: inline-block;
 	list-style: none;
-}
-
-.small-block-grid-4 li a {
-	text-align: center;
-	width: 100%;
-	color: #426e86;
-	font-size: x-large;
-	text-decoration: none;
-	font-weight: 600;
-	font-family: 'Quicksand', sans-serif;
-}
-.small-block-grid-4 li a:hover {
-	color: #f9ba32;
-}
-
-.app-name, .eachLink {
-	text-align: center;
 }
