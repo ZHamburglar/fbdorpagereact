@@ -3,13 +3,29 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render(){
     return (
-      <footer className="challenge-footer">
-      <div className="font main">
-        <h6 className="foot createdby">
-          Made with &#9829;
-        </h6>
-      </div>
-      </footer>
+      <div className="footer">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-6 col-md-offset-3 text-center">
+							<p className="fh5co-social-icons">
+                <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                <i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+								<a href="#"><i className="icon-twitter2"></i></a>
+								<a href="#"><i className="icon-facebook2"></i></a>
+								<a href="#"><i className="icon-instagram"></i></a>
+								<a href="#"><i className="icon-dribbble2"></i></a>
+								<a href="#"><i className="icon-youtube"></i></a>
+							</p>
+							<p>
+                COPYRIGHT © 2014-2017 FOOTBALL-DATA.ORG.
+							</p>
+              <p>
+                ALL RIGHTS RESERVED.
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
     )
   }
 };
