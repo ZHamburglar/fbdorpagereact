@@ -9,41 +9,64 @@ class Nav extends Component {
   myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-        x.className += " responsive navbar-left";
+      x.className += " responsive";
     } else {
-        x.className = "topnav";
+      x.className = "topnav";
     }
   }
   render() {
     return (
       <div className="container-fluid thenav">
-        <nav className="top-bar" role="navigation">
-      <ul className="topnav" id="myTopnav">
-        <li className="icon navbar-left">
-          <a href="javascript:void(0);" onClick={this.myFunction}>☰</a>
-        </li>
-        <li className="navbar-right topright">
-          <Link to="/about" className="eachLink" activeClassName="active">About</Link>
-        </li>
-        <li className="navbar-right topright">
-          <Link to="/settings" className="eachLink" activeClassName="active">Settings</Link>
-        </li>
-        <li className="navbar-right topright">
-          <Link to="/documentation" className="eachLink" activeClassName="active">Docs</Link>
-        </li>
-        <li className="navbar-right topright">
-          <Link to="/blog" className="eachLink" activeClassName="active">Blog</Link>
-        </li>
-        <li className="navbar-right topright">
-          <Link to="/main" className="eachLink" activeClassName="active">Home</Link>
-        </li>
-        <li className="titlename navbar-left">
-          Football-Data<span>.org</span>
-        </li>
+        <div className="top-bar">
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox"/>
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="#/main">
+                  <li>Home</li>
+                </a>
+                <a href="#/about">
+                  <li>About</li>
+                </a>
+                <a href="#">
+                  <li>Info</li>
+                </a>
+                <a href="#">
+                  <li>Contact</li>
+                </a>
+                <a href="Football-data.org" target="_blank">
+                  <li>Show me more</li>
+                </a>
+              </ul>
+            </div>
 
-      </ul>
-    </nav>
-    </div>
+          </nav>
+
+          <ul className="" data-dropdown-menu>
+              <li className="titlename navbar-left">Football-Data<span>.org</span></li>
+              <li className="navbar-right topright">
+                <Link to="/about" className="eachLink" activeClassName="active">About</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/settings" className="eachLink" activeClassName="active">Settings</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/documentation" className="eachLink" activeClassName="active">Docs</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/blog" className="eachLink" activeClassName="active">Blog</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/main" className="eachLink" activeClassName="active">Home</Link>
+              </li>
+            </ul>
+        </div>
+
+
+      </div>
     );
   }
 };
