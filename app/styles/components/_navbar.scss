@@ -1,17 +1,30 @@
 .top-bar {
   background-color: black;
-  box-shadow: 0px 1px 4px 0px rgba(0,0,0,.6);
-	padding: 1.5rem;
+	padding: 2.5rem;
+  width: 100%;
+
+}
+
+.thenav {
+  background-color: black;
+  width: 100%;
 }
 
 .titlename {
+  font-family: 'Rubik Mono One', sans-serif;
   color: #c39f04;
   padding: 11px;
 }
 
 .topright {
+  font-family: 'Rubik Mono One', sans-serif;
   padding: 11px;
 }
+
+.topright :hover {
+  color: red;
+}
+
 
 ul {
   list-style-type: none;

@@ -8,12 +8,15 @@ import router from 'app/router/';
 class Nav extends Component{
   render() {
     return(
-      <div className="container-fluid">
+      <div className="container-fluid thenav">
         <nav className="top-bar" role="navigation">
             <ul className="" data-dropdown-menu>
               <li className="titlename navbar-left">Football-Data<span>.org</span></li>
               <li className="navbar-right topright">
-                <Link to="/main" className="eachLink" activeClassName="active">Home</Link>
+                <Link to="/about" className="eachLink" activeClassName="active">About</Link>
+              </li>
+              <li className="navbar-right topright">
+                <Link to="/settings" className="eachLink" activeClassName="active">Settings</Link>
               </li>
               <li className="navbar-right topright">
                 <Link to="/documentation" className="eachLink" activeClassName="active">Docs</Link>
@@ -22,10 +25,7 @@ class Nav extends Component{
                 <Link to="/blog" className="eachLink" activeClassName="active">Blog</Link>
               </li>
               <li className="navbar-right topright">
-                <Link to="/settings" className="eachLink" activeClassName="active">Settings</Link>
-              </li>
-              <li className="navbar-right topright">
-                <Link to="/about" className="eachLink" activeClassName="active">About</Link>
+                <Link to="/main" className="eachLink" activeClassName="active">Home</Link>
               </li>
   					</ul>
         </nav>
