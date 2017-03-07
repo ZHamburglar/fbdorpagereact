@@ -30,8 +30,15 @@ a:hover
 }
 
 .titlename {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Avenir Next", "Avenir", sans-serif;
   color: #c39f04;
+  font-size: 22px;
+  font-weight: normal;
+  display: inline-flex;
+}
+
+.orgbold {
+  font-weight: bolder;
 }
 
 ul li {
@@ -43,7 +50,7 @@ ul li {
 } */
 
 a.eachLink {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Avenir Next", "Avenir", sans-serif;
   padding: 9px;
   color: white;
 }
@@ -166,8 +173,8 @@ a.eachLink {
 
   .top-bar {
     box-sizing:content-box;
-    height:25px;
-  }
+/*     height:35px;
+ */  }
   .top-bar, .top-bar ul {
 /*     float: right;
  */  }
@@ -181,9 +188,12 @@ a.eachLink {
     display: none;
   }
   .titlename {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Avenir Next", "Avenir", sans-serif;
     color: #c39f04;
     text-align: right;
     background-color: black;
   }
+div.top-bar{
+  height: 35px;
+}
 }

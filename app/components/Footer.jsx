@@ -6,7 +6,7 @@ class Footer extends Component {
       <div className="footer">
 				<div className="container">
 					<div className="row">
-						<div className="col-md-6 col-md-offset-3 text-center">
+						<div className="text-center">
 							<p className="fh5co-social-icons">
                 <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 <i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>

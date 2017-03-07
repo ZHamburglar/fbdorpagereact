@@ -5,7 +5,7 @@ import Footer from 'Footer';
 import * as Redux from 'react-redux';
 import router from 'app/router/';
 
-class About extends Component{
+class Settings extends Component{
 
 
   render() {
@@ -18,7 +18,7 @@ class About extends Component{
             Left Side
           </div>
           <div className="columns medium-6  large-8 small-centered">
-            <h3>About!</h3>
+            <h3>Settings!</h3>
             <p>Look at you navigating!</p>
           </div>
           <div className="columns medium-3 large-2 small-centered">
@@ -31,4 +31,4 @@ class About extends Component{
   }
 };
 
-export default About;
+export default Settings;
