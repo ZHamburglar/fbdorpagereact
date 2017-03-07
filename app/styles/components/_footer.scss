@@ -1,3 +1,20 @@
 .footer{
   background-color: #66D37E;
 }
+
+.social-icons{
+  padding-top: 18px;
+}
+
+p.footerwebsite > a:hover {
+  color:yellow;
+  text-decoration: none;
+}
+
+p.social-icons > i.fa.fa-facebook-official.fa-2x:hover{
+  color: #3B5998;
+}
+
+p.social-icons > i.fa.fa-twitter.fa-2x:hover{
+  color: #00aced;
+}
