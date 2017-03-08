@@ -10,20 +10,18 @@ class Main extends Component {
     return (
       <div className="font-main">
         <Nav/>
-        <div className="page-actions"></div>
-        <div className="row" id="logorow">
-          <div className="columns medium-3 large-2 small-centered">
-            Left Side
+          <div className="mainlandingsection">
+            <div className="mainlandingsectiontext">
+              <div className="footballdatatitle">
+                RESTFUL FOOTBALL DATA.
+              </div>
+              <div className="titlesubtext">
+                For football applications of your needs.
+              </div>
+              <a className="apibutton" href="#" role="button">Request an API Key</a>
+            </div>
           </div>
-          <div className="columns medium-6  large-8 small-centered">
-            <h3>Welcome to Your React App!</h3>
-            <p>This is the first page!</p>
-          </div>
-          <div className="columns medium-3 large-2 small-centered">
-            Right Side
-          </div>
-        </div>
-        <Footer/>
+        <Footer />
       </div>
     )
   }
