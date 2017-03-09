@@ -51,8 +51,25 @@
 
 .mainlandingparagraph {
   margin: 40px;
+  max-width: 80%;
+  text-align: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.mainlandingparagraph:after {
+  position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    height: 2px;
+    background: #FCC72C;
 }
 
 div.mainlandingparagraph > .paragraph {
-  color: red;
+  text-align: center;
+  color: black;
 }
