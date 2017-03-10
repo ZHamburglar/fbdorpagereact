@@ -12,18 +12,11 @@ class About extends Component{
     return (
       <div className="font-main">
         <Nav/>
-        <div className="page-actions"></div>
-        <div className="row" id="logorow">
-          <div className="columns medium-3 large-2 small-centered">
-            Left Side
-          </div>
-          <div className="columns medium-6  large-8 small-centered">
-            <h3>About!</h3>
-            <p>Look at you navigating!</p>
-          </div>
-          <div className="columns medium-3 large-2 small-centered">
-            Right Side
-          </div>
+        <div className="mapsection">
+          Hello there
+          <iframe width="600" height="450" frameBorder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDcV8OiTF_Lk4UCZLszjEPyAbBV-1p-tBk&q=Austin+TX" allowFullScreen>
+          </iframe>
+
         </div>
         <Footer />
       </div>
